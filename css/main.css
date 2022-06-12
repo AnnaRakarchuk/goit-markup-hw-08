@@ -145,8 +145,8 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   padding: 40px;
   background-color: var(--main-bg-cl);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -156,6 +156,13 @@ img {
   transition: opacity 250ms ease-in-out 250ms, -webkit-transform 250ms ease-in-out 250ms;
   transition: transform 250ms ease-in-out 250ms, opacity 250ms ease-in-out 250ms;
   transition: transform 250ms ease-in-out 250ms, opacity 250ms ease-in-out 250ms, -webkit-transform 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .modal-wrapper {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .backdrop.is-hidden .modal-wrapper {
@@ -189,6 +196,8 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: transparent;
+  -webkit-transition: border var(--animation), fill var(--animation);
+  transition: border var(--animation), fill var(--animation);
   cursor: pointer;
 }
 
@@ -269,7 +278,7 @@ img {
 
 .form-modal-comments {
   display: block;
-  width: 448px;
+  width: 370px;
   height: 120px;
   padding: 12px 16px;
   resize: none;
@@ -279,6 +288,13 @@ img {
   cursor: pointer;
   -webkit-transition: border var(--animation);
   transition: border var(--animation);
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .form-modal-comments {
+    width: 448px;
+  }
 }
 
 .form-modal-comments:focus {
@@ -361,9 +377,16 @@ img {
 
 .form-policy-desc {
   font-family: var(--main-font);
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   color: var(--main-txt-cl);
+}
+
+@media screen and (min-width: 1199.98px) {
+  .form-policy-desc {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .form-police-link {
