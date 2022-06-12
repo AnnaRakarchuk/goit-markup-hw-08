@@ -821,6 +821,13 @@ img {
 /*-----------------
 | Section What are we doing
 -------------------*/
+@media screen and (max-width: 1199.98px) {
+  .work {
+    display: none;
+    padding: 0;
+  }
+}
+
 .section-title {
   margin-bottom: 50px;
   font-weight: 700;

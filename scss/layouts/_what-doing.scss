@@ -1,6 +1,12 @@
 /*-----------------
 | Section What are we doing
 -------------------*/
+.work{
+  @media screen and (max-width: 1199.98px){
+    display: none;
+    padding: 0;
+  }
+}
 .section-title {
     margin-bottom: 50px;
     font-weight: 700;
