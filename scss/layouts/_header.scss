@@ -205,6 +205,10 @@
   .header-menu__btn:focus .header-menu__icon-menu{
     fill: var(--accent-cl);
   }
+  .header-menu__btn:hover.is-open .header-menu__icon-cross,
+  .header-menu__btn:focus.is-open .header-menu__icon-cross{
+    fill: var(--icon-modal);
+  }
   
 
   .menu-container{
