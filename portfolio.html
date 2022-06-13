@@ -87,13 +87,44 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/technokrak.jpg"
-                  alt="Технокряк"
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/technokrak_lg.jpg    1x,
+                      ./images/portfolio/technokrak_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/technokrak_md.jpg    1x,
+                      ./images/portfolio/technokrak_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/technokrak_sm.jpg    1x,
+                      ./images/portfolio/technokrak_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    src="./images/portfolio/technokrak_sm.jpg"
+                    alt="Технокряк"
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
@@ -105,13 +136,46 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="#">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/poster.jpg"
-                  alt="Постер"
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/poster_lg.jpg    1x,
+                      ./images/portfolio/poster_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/poster_md.jpg    1x,
+                      ./images/portfolio/poster_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/poster_sm.jpg    1x,
+                      ./images/portfolio/poster_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    class="cards-img"
+                    src="./images/portfolio/poster_sm.jpg"
+                    alt="Постер"
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
+
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
@@ -125,13 +189,45 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="#">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/restaurant-seafood.jpg"
-                  alt="Ресторан морепродуктов"
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/restaurant-seafood_lg.jpg    1x,
+                      ./images/portfolio/restaurant-seafood_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/restaurant-seafood_md.jpg    1x,
+                      ./images/portfolio/restaurant-seafood_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/restaurant-seafood_sm.jpg    1x,
+                      ./images/portfolio/restaurant-seafood_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    src="./images/portfolio/restaurant-seafood_sm.jpg"
+                    alt="Ресторан морепродуктов"
+                    alt="Постер"
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
@@ -143,13 +239,44 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="#">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/project-prime.jpg"
-                  alt="Проект прайм"
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/project-prime_lg.jpg    1x,
+                      ./images/portfolio/project-prime_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/project-prime_md.jpg    1x,
+                      ./images/portfolio/project-prime_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/project-prime_sm.jpg    1x,
+                      ./images/portfolio/project-prime_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    src="./images/portfolio/project-prime_sm.jpg"
+                    alt="Проект прайм"
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
@@ -161,13 +288,44 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="#">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/project-boxes.jpg"
-                  alt="Проект коробка"
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/project-boxes_lg.jpg    1x,
+                      ./images/portfolio/project-boxes_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/project-boxes_md.jpg    1x,
+                      ./images/portfolio/project-boxes_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/project-boxes_sm.jpg    1x,
+                      ./images/portfolio/project-boxes_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    src="./images/portfolio/project-boxes_sm.jpg"
+                    alt="Проект коробка"
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
@@ -179,13 +337,44 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="#">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/inspiration.jpg"
-                  alt="Вдохновение не имеет границ "
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/inspiration_lg.jpg    1x,
+                      ./images/portfolio/inspiration_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/inspiration_md.jpg    1x,
+                      ./images/portfolio/inspiration_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/inspiration_sm.jpg    1x,
+                      ./images/portfolio/inspiration_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    src="./images/portfolio/inspiration_sm.jpg"
+                    alt="Вдохновение не имеет границ "
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
@@ -197,13 +386,44 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="#">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/limited-edition.jpg"
-                  alt="Журнал даного издательства"
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/limited-edition_lg.jpg    1x,
+                      ./images/portfolio/limited-edition_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/limited-edition_md.jpg    1x,
+                      ./images/portfolio/limited-edition_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/limited-edition_sm.jpg    1x,
+                      ./images/portfolio/limited-edition_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    src="./images/portfolio/limited-edition_sm.jpg"
+                    alt="Журнал даного издательства"
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
@@ -215,13 +435,44 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="#">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/project-lab.jpg"
-                  alt="Проект лаб"
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/project-lab_lg.jpg    1x,
+                      ./images/portfolio/project-lab_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/project-lab_md.jpg    1x,
+                      ./images/portfolio/project-lab_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/project-lab_sm.jpg    1x,
+                      ./images/portfolio/project-lab_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    src="./images/portfolio/project-lab_sm.jpg"
+                    alt="Проект лаб"
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
@@ -233,13 +484,44 @@
             <li class="portfolio-cards-item">
               <a class="portfolio-link" href="#">
                 <div class="img-container">
-                  <img
-                  class="cards-img"
-                  src="./images/portfolio/growing-business.jpg"
-                  alt="Растущий бизнес"
-                  width="370"
-                  height="294"
-                />
+                  <picture>
+                    <!-- Набір зображень для десктопних екранів -->
+                  <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                      ./images/portfolio/growing-business_lg.jpg    1x,
+                      ./images/portfolio/growing-business_lg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для планшетних екранів -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ./images/portfolio/growing-business_md.jpg    1x,
+                      ./images/portfolio/growing-business_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Набір зображень для мобільних екранів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                      ./images/portfolio/growing-business_sm.jpg    1x,
+                      ./images/portfolio/growing-business_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Дефолтне зображення, яке відпрацює у будь-якому випадку -->
+                    <img
+                    class="cards-img"
+                    src="./images/portfolio/growing-business_sm.jpg"
+                    alt="Растущий бизнес"
+                    width="450"
+                    height="294"
+                    loading="lazy"
+                  />
+                  </picture>
                 <p class="cards-overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                 </div>
                 <div class="card-group">
