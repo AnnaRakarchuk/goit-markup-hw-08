@@ -5,6 +5,7 @@
   border-bottom: 1px solid var(--border-header);
   }
   .header-container {
+    position: relative;
     @media screen and (min-width: 767.98px){
       display: flex;
     }
@@ -17,6 +18,11 @@
   }
   
   .header-logo {
+    @media screen and (max-width: 767.98px){
+      display: block;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
     @media screen and (min-width: 767.98px) and (max-width: 1199.98px){
       margin-right: 88px;
     }
@@ -54,6 +60,9 @@
   
 
   .navigation-list {
+    @media screen and (max-width: 767.98px){
+      display: none;
+      }
     @media screen and (min-width: 767.98px){
       display: flex;
     }
@@ -94,6 +103,9 @@
   }
   
   .contacts {
+    @media screen and (max-width: 767.98px){
+      display: none;
+      }
     @media screen and (min-width: 767.98px) and (max-width: 1199.98px){
       display: flex;
       margin-left: auto;
@@ -152,5 +164,31 @@
 
     @media screen and (min-width: 1200px){
       margin-right: 10px;
+    }
+  }
+
+  // Меню мобильная версия
+
+  .header-menu__btn{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-bg-cl);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    z-index: 10;
+
+    @media screen and (min-width: 767.98px){
+      display: none;
+    }
+    @media screen and (min-width: 1200px){
+      display: none;
     }
   }
