@@ -97,6 +97,9 @@
   
       background-color: var(--bgd-button);
       border-radius: 2px;
+      margin-bottom: -5px;
+    }
+    @media screen and (min-width: 1200px){
       margin-bottom: -1px;
     }
 

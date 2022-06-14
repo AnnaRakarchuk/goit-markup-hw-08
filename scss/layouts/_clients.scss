@@ -10,9 +10,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: calc((100% - 60px) / 2);
+  flex-basis: 100%;
   margin: 15px;
 
+  @media screen and (min-width: 480px) and (max-width: 768px){
+    flex-basis: calc((100% - 60px) / 2);
+  }
+  
     // tablet screen
       @include mq(tablet){
         flex-basis: calc((100% - 90px) / 3);

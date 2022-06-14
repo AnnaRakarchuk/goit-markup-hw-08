@@ -2,7 +2,7 @@
 | Benefits section
 -------------------*/
 .benefits {
- padding-bottom: 0;
+
 }
   .benefits-list {    
   // tablet screen
@@ -22,13 +22,18 @@
       width: 354px; 
       // flex-basis: calc((100% -30px) / 2)};
     }}
+    
   .benefits-list__item{
     @media screen and (min-width: 768px) and (max-width: 1199.98px){
       &:nth-child(odd) {
         margin-right: 30px;
     }
+    &:nth-last-child(-n + 2){
+      margin-bottom: 0;
+    }
     }
     } 
+
   .benefits-list__item {
     // desktop screen
       @include mq(desktop){
@@ -65,12 +70,13 @@
         
     // tablet screen
     @include mq(tablet){
-      display: inline;
+      display: block;
+      margin-bottom: 10px;
     }
     
     // desktop screen
     @include mq(desktop){
-      display: inline;
+      display: block;
     }
   }
   .benefits-list__text{
