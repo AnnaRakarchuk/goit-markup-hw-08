@@ -959,6 +959,10 @@ img {
   color: var(--accent-cl);
 }
 
+body.mobile-menu-open {
+  overflow: hidden;
+}
+
 /*-----------------
 | Hero section
 -------------------*/
