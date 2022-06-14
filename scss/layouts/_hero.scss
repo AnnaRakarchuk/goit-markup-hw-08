@@ -70,7 +70,7 @@
     color: var(--secondary-txt-white);
 
     @media screen and (min-width: 1199.98px){
-    width: 696px;
+    max-width: 696px;
     font-size: 44px;
     line-height: 1.36;
     }
