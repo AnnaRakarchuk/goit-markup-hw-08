@@ -931,6 +931,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 64px;
 }
 
@@ -942,6 +944,10 @@ img {
 
 .mobile-menu__item:first-child {
   padding-left: 0;
+}
+
+.mobile-menu__item:last-child {
+  border-right: none;
 }
 
 .mobile-menu__link {

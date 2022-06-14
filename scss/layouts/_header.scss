@@ -284,6 +284,7 @@
 
   .mobile-menu__socials{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 64px;
   }
   .mobile-menu__item{
@@ -293,6 +294,9 @@
     &:first-child {
       padding-left: 0;
   }
+    &:last-child{
+      border-right: none;
+    }
   }
   .mobile-menu__link{
     font-family: var(--main-font);
